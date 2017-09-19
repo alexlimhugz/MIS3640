@@ -23,7 +23,7 @@ breakfast_sec = (breakfast_min - int(breakfast_min))*60
 print ('Breakfast time is {:02d}:{:02d}:{:02d}.'.format(
         int(breakfast_hr),
         int(breakfast_min),
-        int(breakfast_min)))
+        int(breakfast_sec)))
 
 #exercise 1.4
 increase = (89-82) / 82 * 100
